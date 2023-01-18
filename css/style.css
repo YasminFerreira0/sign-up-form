@@ -12,8 +12,26 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: hsl(0, 100%, 74%);
+    margin: 0 3vw;
 }
 
+.titulo-principal {
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: 700;
+}
+.texto-principal{
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 500;
+}
+.caixa-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 
 
