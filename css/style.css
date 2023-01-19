@@ -24,6 +24,7 @@ body{
     color: #ffffff;
     font-size: 1em;
     font-weight: 500;
+    padding: 10px 0;
 }
 .caixa-texto{
     display: flex;
@@ -31,10 +32,25 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 20px 0;
 }
 
+    .bnt-assinatura {
+        border: none;
+        border-radius: 20px;
+        background-color: hsl(248, 32%, 49%);
+        color: #ffffff;
+        padding: 20px 30px;
+    }
 
-
+    .formalario {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #ffffff;
+        padding: 30px 10px;
+    }
 
 
 
