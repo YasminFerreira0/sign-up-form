@@ -53,6 +53,20 @@ body{
     }
 
 
+.bnt-form {
+    background-color: hsl(154, 59%, 51%);
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 30px 20px;
+}
+
+.texto-form {
+    color: hsl(246, 25%, 77%);
+    font-size: 0.8em;
+}
+
+
 
 .attribution {
     font-size: 11px;
