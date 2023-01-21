@@ -79,7 +79,11 @@ body{
     color: #ffffff;
     border: none;
     border-radius: 5px;
-    padding: 15px 30px;
+    padding: 10px 30px;
+    box-shadow: 2px 3px hsl(154, 57%, 43%);
+}
+.bnt-form:hover {
+    filter: opacity(70%);
 }
 
 .texto-form {
