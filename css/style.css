@@ -6,23 +6,30 @@
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-image: url(../images/bg-intro-mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100vw;
+    width: 95vw;
     height: 100vh;
     background-color: hsl(0, 100%, 74%);
     margin: 0 3vw;
 }
 
+.container {
+    width: 80vw;
+}
+
 .titulo-principal {
     color: #ffffff;
-    font-size: 2em;
+    font-size: 1.8em;
     font-weight: 700;
 }
 .texto-principal{
     color: #ffffff;
-    font-size: 1em;
     font-weight: 500;
     padding: 10px 0;
 }
@@ -32,46 +39,56 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
-    .bnt-assinatura {
-        border: none;
-        border-radius: 20px;
-        background-color: hsl(248, 32%, 49%);
-        color: #ffffff;
-        padding: 20px 30px;
-    }
+.bnt-assinatura {
+    border: none;
+    border-radius: 15px;
+    background-color: hsl(248, 32%, 49%);
+    color: #ffffff;
+    padding: 20px 35px;
+    box-shadow: 4px 5px hsla(249, 10%, 26%, 0.493);
+    font-size: 0.8em;
+    margin: 10px 0;
+}
 
-    .formalario {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        background-color: #ffffff;
-        padding: 30px 10px;
-    }
+.formalario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 30px 10px;
+    gap: 20px;
+    margin: 30px 0;
+    border-radius: 10px;
+}
 
+.input-form {
+    border-color: hsl(246, 25%, 77%);
+    border-radius: 5px;
+    color: hsl(249, 10%, 26%);
+    font-size: 0.8em;
+    font-weight: 700;
+    padding: 10px 20px;
+}
 
 .bnt-form {
     background-color: hsl(154, 59%, 51%);
     color: #ffffff;
     border: none;
-    border-radius: 20px;
-    padding: 30px 20px;
+    border-radius: 5px;
+    padding: 15px 30px;
 }
 
 .texto-form {
     color: hsl(246, 25%, 77%);
     font-size: 0.8em;
-}
-
-
-
-.attribution {
-    font-size: 11px;
     text-align: center;
 }
-.attribution a {
-    color: hsl(228, 45%, 44%);
+
+.terms {
+    color: hsl(0, 100%, 74%);
+    font-size: 0.9em;
 }
