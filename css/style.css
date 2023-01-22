@@ -42,6 +42,12 @@ body{
     padding: 30px 0;
 }
 
+.caixa-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .bnt-assinatura {
     border: none;
     border-radius: 15px;
@@ -96,3 +102,4 @@ body{
     color: hsl(0, 100%, 74%);
     font-size: 0.9em;
 }
+
